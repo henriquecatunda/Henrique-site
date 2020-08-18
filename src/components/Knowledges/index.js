@@ -19,28 +19,28 @@ function Knowledges(){
                <Img> <img   src={Html} alt="gameflix"/>  </Img> 
                 <Title>HTML</Title>
                 <Linha/>
-                <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao>
+                {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
           </gridKnowledge>
 
           <gridKnowledge>     
              <Img> <img   src={css} alt="gameflix"/>  </Img> 
                 <Title>CSS</Title>
                 <Linha/>
-                <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao>
+                {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
           </gridKnowledge>
 
              <gridKnowledge>     
                   <Img>  <img   src={JS} alt="gameflix"/>  </Img> 
                   <Title>JavaScript</Title>
                   <Linha/>
-                  <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao>
+                  {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
             </gridKnowledge>
 
           <gridKnowledge>     
              <Img>   <img  src={Reactimg} alt="gameflix"/>  </Img> 
                 <Title>ReactJS</Title>
                 <Linha/>
-                <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao>
+                {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
           </gridKnowledge>
 
          
@@ -49,28 +49,28 @@ function Knowledges(){
              <Img> <img   src={Node} alt="gameflix"/> </Img> 
                 <Title>Node</Title>
                 <Linha/>
-                <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao>
+                {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
           </gridKnowledge>
 
           <gridKnowledge>     
             <Img>  <img   src={Bootstrap} alt="gameflix"/>  </Img> 
                 <Title>Bootstrap</Title>
                 <Linha/>
-                <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao>
+                {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
           </gridKnowledge>
 
           <gridKnowledge>     
                <Img><img   src={Design} alt="gameflix"/>  </Img>
                 <Title>Design UI/UX</Title>
                 <Linha/>
-                <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao>
+                {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
           </gridKnowledge>
 
           <gridKnowledge>     
                 <Img><img   src={Reactimg} alt="gameflix"/> </Img> 
                 <Title>React-Native</Title>
                 <Linha/>
-                <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao>
+                {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
           </gridKnowledge>
 
         </Container>

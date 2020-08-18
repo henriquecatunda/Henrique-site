@@ -26,8 +26,9 @@ function InfoUser(){
                      , JavaScript (ES6 / 7), React, Responsive Design, UI-UX Design.
                     </User>
 
+                    <a href="https://drive.google.com/file/d/1ek6MC0SXbEJxpPHCkNZn5SHLENK6rFAo/view?usp=sharing"  target="_blank" >
                     <ButtonContato> Curriculo </ButtonContato>
- 
+                     </a>
             </Informacao>
 
 
@@ -35,5 +36,6 @@ function InfoUser(){
 
     );
 }
+
 
 export default InfoUser;

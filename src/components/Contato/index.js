@@ -39,7 +39,7 @@ function Contato(){
           </ContatoSocial>
 
           <ContatoSocial>     
-            <a  target="_blank" href="https://github.com/henriquecatunda" rel="noopener"> 
+            <a  target="_blank" href="https://www.instagram.com/henriquecatunda/" rel="noopener"> 
                <img  src={Instagram} alt="gameflix"/> 
             </a>
           </ContatoSocial>

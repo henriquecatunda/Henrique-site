@@ -2,14 +2,14 @@
 import styled from 'styled-components';
 
 const ButtonLink = styled.button`
-  color: var(--white);
-  border: 1px solid var(--white);
-  background-color: var(--black);
+  color: black;
+  border: 2px solid black;
+  background-color: var(--white);
   box-sizing: border-box;
   cursor: pointer;
-  padding: 7px 20px;
+  padding: 7px 25px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
   outline: none;
   border-radius: 25px;

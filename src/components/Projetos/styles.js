@@ -10,6 +10,12 @@ export const Container = styled.div`
  background-color:var(--black);
  justify-content: center;
 
+ @media (max-width: 600px){
+
+  padding: 10px;
+ }
+ 
+
 `;
 
 export const MyProjeto= styled.div`
@@ -19,11 +25,19 @@ export const MyProjeto= styled.div`
   justify-content: space-around;
   margin-bottom: 60px;
   padding: 10p;
+
+  @media (max-width: 600px){
+
+    width: 90%;
+    height: auto; 
+    flex-direction:column;
+    margin-top: 20px;
+  }
 `;
 
 export const Profite = styled.div`
 
-width: 50%;
+ width: 50%;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
@@ -32,6 +46,14 @@ width: 50%;
 
   display: flex;
   justify-content: flex-end;
+ }
+
+ @media (max-width: 600px){
+
+    width: 90%;
+    margin: auto;
+
+
  }
 
 `;
@@ -51,6 +73,14 @@ align-items:center;
     height: 100%;
 }
 
+@media (max-width: 600px){
+
+width: 80%;
+margin-right:0px;
+margin: auto;
+
+}
+
 `;
 
 export const Title = styled.div`
@@ -59,9 +89,16 @@ export const Title = styled.div`
     font-size: 1.5rem;
     color:white;
     margin-bottom:20px;
-    
-   
 
+    @media (max-width: 600px){
+     
+      width:auto;
+      margin:auto;
+      margin-top: 20px;
+      margin-bottom:20px;
+
+    }
+    
 `;
 
 export const Descricao = styled.div`
@@ -90,6 +127,13 @@ export const ButtonTec = styled.div`
   outline: none;
   margin-right:5px;
   display: inline-block;
+
+
+  @media (max-width: 600px){
+     
+     margin-bottom:10px;
+
+   }
 
 `;
 

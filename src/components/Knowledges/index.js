@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, gridKnowledge , Title, Linha, Descricao , Img} from './style';
+import {Container, GridKnowledge , Title, Linha, Descricao , Img} from './style';
 import Html from '../../assets/html.jpg';
 import css from '../../assets/css.jpg';
 import JS from '../../assets/js.jpg';
@@ -15,63 +15,63 @@ function Knowledges(){
 
         <Container>
 
-          <gridKnowledge>     
+          <GridKnowledge>     
                <Img> <img   src={Html} alt="gameflix"/>  </Img> 
                 <Title>HTML</Title>
                 <Linha/>
                 {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
-          </gridKnowledge>
+          </GridKnowledge>
 
-          <gridKnowledge>     
+          <GridKnowledge>     
              <Img> <img   src={css} alt="gameflix"/>  </Img> 
                 <Title>CSS</Title>
                 <Linha/>
                 {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
-          </gridKnowledge>
+          </GridKnowledge>
 
-             <gridKnowledge>     
+             <GridKnowledge>     
                   <Img>  <img   src={JS} alt="gameflix"/>  </Img> 
                   <Title>JavaScript</Title>
                   <Linha/>
                   {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
-            </gridKnowledge>
+            </GridKnowledge>
 
-          <gridKnowledge>     
+          <GridKnowledge>     
              <Img>   <img  src={Reactimg} alt="gameflix"/>  </Img> 
                 <Title>ReactJS</Title>
                 <Linha/>
                 {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
-          </gridKnowledge>
+          </GridKnowledge>
 
          
 
-          <gridKnowledge>     
+          <GridKnowledge>     
              <Img> <img   src={Node} alt="gameflix"/> </Img> 
                 <Title>Node</Title>
                 <Linha/>
                 {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
-          </gridKnowledge>
+          </GridKnowledge>
 
-          <gridKnowledge>     
+          <GridKnowledge>     
             <Img>  <img   src={Bootstrap} alt="gameflix"/>  </Img> 
                 <Title>Bootstrap</Title>
                 <Linha/>
                 {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
-          </gridKnowledge>
+          </GridKnowledge>
 
-          <gridKnowledge>     
+          <GridKnowledge>     
                <Img><img   src={Design} alt="gameflix"/>  </Img>
                 <Title>Design UI/UX</Title>
                 <Linha/>
                 {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
-          </gridKnowledge>
+          </GridKnowledge>
 
-          <gridKnowledge>     
+          <GridKnowledge>     
                 <Img><img   src={Reactimg} alt="gameflix"/> </Img> 
                 <Title>React-Native</Title>
                 <Linha/>
                 {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
-          </gridKnowledge>
+          </GridKnowledge>
 
         </Container>
     );

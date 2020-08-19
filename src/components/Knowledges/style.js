@@ -8,18 +8,24 @@ width: 80%;
  padding: 50px 50px 100px 50px ;
  margin:auto;
 
+ @media (max-width: 600px){
+
+   width:100vw;
+   grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 40px;
+    padding: 50px 10px 50px 10px ;
+
+
+}
 
 
 `;
 
-export const gridKnowledge = styled.div`
+export const GridKnowledge = styled.div`
 
     display: flex;
     flex-direction: column;
     align-content:center;
-    margin-bottom:10rem;
-
-
     
 `;
 
@@ -42,7 +48,7 @@ height: 50px;
 
 export const Title = styled.div`
 
-font-weight:600;
+font-weight:500;
 font-size: 0.9rem;
 color: black;
 text-align: center;

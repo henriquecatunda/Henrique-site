@@ -25,7 +25,7 @@ export const Containe = styled.div`
 export const MenuInfo = styled.div`
 
      >a{ margin-right: 25px;
-      font-weight: bold;
+      font-weight: 500;
       font-size: 14px;
       text-decoration: none;
       transition: opacity .3s;

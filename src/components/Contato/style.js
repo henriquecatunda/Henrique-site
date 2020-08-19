@@ -12,6 +12,7 @@ export const Container = styled.div`
 export const ContatoSocial = styled.div`
 
   margin-right: 20px;
+  transition: opacity .3s;
  
  >a { text-decoration: none;
  }
@@ -20,8 +21,11 @@ export const ContatoSocial = styled.div`
 
   width: 28px;
   height: 28px;
-
-
  }
+
+  &:hover,
+  &:focus {
+    opacity: .5;
+  }
 
 `;

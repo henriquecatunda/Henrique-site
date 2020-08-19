@@ -1,17 +1,38 @@
 import React from "react";
 import { Link} from 'react-router-dom';
-import {Container, Profite, ButtonHeader, Title, SubTitle, Descricao, ButtonContato,  ButtonPortfolio,ImgHeader} from './style.js';
+import {Container, Profite, ButtonHeader, Title, SubTitle, Descricao, ButtonContato,  ButtonPortfolio,ImgHeader
+, MenuInfo} from './style.js';
 import Contato from "../Contato/index.js";
-import headerimg from '../../assets/hea.png';
+import headerimg from '../../assets/header2.png';
+import ButtonLink from '../../components/ButtonLink';
 
+var sectionStyle = {
+    backgroundImage: `url(${headerimg})`
+  };
 
 function Header(){
 
     return (
 
-        <Container>
+        <Container  style={ sectionStyle }>
 
-            
+                <MenuInfo>
+
+                <Link to="/">
+                About 
+                </Link>
+
+                <Link to="/portfolio">
+                Portfolio
+                </Link>
+
+                <a target="_blank" href="https://github.com/henriquecatunda"> 
+                
+                <ButtonLink >  GitHub   </ButtonLink>
+                </a>
+
+
+                </MenuInfo>
 
 
             <div>
@@ -41,10 +62,11 @@ function Header(){
                </ButtonHeader>
                </div>
 
-            <ImgHeader>
-            <img   src={headerimg} alt="gameflix"/> 
+            {/* <ImgHeader>
+
+            <img   src={headerimg2} alt="gameflix"/> 
             
-            </ImgHeader>
+            </ImgHeader> */}
 
 
         </Container>

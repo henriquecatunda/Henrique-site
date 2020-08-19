@@ -19,6 +19,13 @@ export const Containe = styled.div`
   
     background: var(--black);
     color: rgb(238, 238, 238);
+
+    @media (max-width: 600px){
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+
+    }
 `;
 
 
@@ -35,6 +42,14 @@ export const MenuInfo = styled.div`
       &:focus {
         opacity: .5;
       }
+
+      @media (max-width: 600px){
+
+        padding: 5px 5px;
+        margin-right: 15px;
+        margin-left:15px;
+      }
+
 
      }
 `;

@@ -26,15 +26,7 @@ export const MyProjeto= styled.div`
   justify-content:space-between;
   margin-bottom: 60px;
   padding: 10px;
-  /* background-color: var(--grayMedium);
-  border-radius: 8px; */
-  /* transition: border-left .3s;
-  &:hover,
-  &:focus {
-    border-left: 1px solid #E80000;
-  } */
-
-
+  
   .buttonLink{
 
   display: flex;
@@ -43,10 +35,21 @@ export const MyProjeto= styled.div`
 
   @media (max-width: 600px){
 
-    width: 90%;
+    width: 95%;
     height: auto; 
     flex-direction:column;
     margin-top: 20px;
+
+
+
+    .buttonLink{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    }
+
   }
 `;
 
@@ -65,8 +68,18 @@ export const Profite = styled.div`
 
  @media (max-width: 600px){
 
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    flex-direction:column;
+    align-items:center;
+
+    .info{
+
+    width: 100%;
+
+    }
+
+ 
 
 
  }
@@ -111,6 +124,7 @@ export const Title = styled.div`
       margin:auto;
       margin-top: 20px;
       margin-bottom:20px;
+      text-align:center;
 
     }
     
@@ -122,6 +136,13 @@ export const Descricao = styled.div`
     color: whitesmoke ;
     margin-bottom:10px;
     margin-right: 15px;
+
+
+    @media (max-width: 600px){
+     
+    margin:auto;
+
+   }
 
 `;
 

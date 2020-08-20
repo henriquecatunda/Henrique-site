@@ -7,12 +7,13 @@ function Footer() {
     <FooterBase>
 
         <Contato/>
+
+        <div className="footerInfo">
        @ 2020 {' '}
       <a href="https://www.linkedin.com/in/henrique-catunda-1a50851ab/"  target="_blank">
        Henriquecatunda 
-  </a> {' '}All rights reserved
-
-     
+      </a> {' '}All rights reserved
+      </div>
     </FooterBase>
   );
 }

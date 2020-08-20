@@ -13,11 +13,15 @@ export const FooterBase = styled.footer`
   font-size: 0.7rem;
 
 
-  >a{
+  .footerInfo{
+    >a{
     text-decoration:none;
+    }
+    margin-top: 15px;
     
   }
 
+  
   @media (max-width: 600px) {
     margin-bottom: 0;
   }

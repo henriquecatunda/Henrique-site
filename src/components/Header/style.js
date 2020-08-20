@@ -3,14 +3,14 @@ import headerimg2 from '../../assets/header.png';
 
 export const Container = styled.div`
 
- width: 100%;
+ width: 100vw;
  height: 100vh;
  display: flex;
  flex-direction: column;
  align-items: flex-start;
  padding: 0 40px 50px 60px;
  background-color: var(--black);
- background-size: 100%;
+ background-size: 100vw cover;
 
  @media (max-width: 600px){
     width:100vw;

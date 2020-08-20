@@ -7,8 +7,7 @@ import headerimg from '../../assets/header2.png';
 import ButtonLink from '../../components/ButtonLink';
 
 var sectionStyle = {
-    backgroundImage: `url(${headerimg})`
-    
+    backgroundImage: `url(${headerimg})`,
   };
 
 function Header(){

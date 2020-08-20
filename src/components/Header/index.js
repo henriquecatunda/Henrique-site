@@ -8,6 +8,7 @@ import ButtonLink from '../../components/ButtonLink';
 
 var sectionStyle = {
     backgroundImage: `url(${headerimg})`
+    
   };
 
 function Header(){

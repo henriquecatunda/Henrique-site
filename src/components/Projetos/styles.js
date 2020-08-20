@@ -19,12 +19,27 @@ export const Container = styled.div`
 `;
 
 export const MyProjeto= styled.div`
-  width: 75%;
-  height: 250px;
+  width: 65%;
+  height: 260px;
   display: flex;
-  justify-content: space-around;
+  flex-direction:column;
+  justify-content:space-between;
   margin-bottom: 60px;
-  padding: 10p;
+  padding: 10px;
+  /* background-color: var(--grayMedium);
+  border-radius: 8px; */
+  /* transition: border-left .3s;
+  &:hover,
+  &:focus {
+    border-left: 1px solid #E80000;
+  } */
+
+
+  .buttonLink{
+
+  display: flex;
+  justify-content: space-between;
+}
 
   @media (max-width: 600px){
 
@@ -37,15 +52,15 @@ export const MyProjeto= styled.div`
 
 export const Profite = styled.div`
 
- width: 50%;
+ width: 100%;
  display: flex;
- flex-direction: column;
  justify-content: space-between;
+ 
 
- .buttonLink{
+ .info{
 
-  display: flex;
-  justify-content: flex-end;
+  width: 50%;
+
  }
 
  @media (max-width: 600px){
@@ -60,8 +75,8 @@ export const Profite = styled.div`
 
 export const Img = styled.div`
 
-width: 42%;
-margin-right:20px;
+width: 48%;
+margin-right:30px;
 
 display:flex;
 align-items:center;
@@ -106,6 +121,7 @@ export const Descricao = styled.div`
     font-size: 0.8rem;
     color: whitesmoke ;
     margin-bottom:10px;
+    margin-right: 15px;
 
 `;
 

@@ -10,6 +10,7 @@ export const Container = styled.div`
  align-items: flex-start;
  padding: 0 40px 50px 60px;
  background-color: var(--black);
+ background-size: 100%;
 
  @media (max-width: 600px){
     width:100vw;

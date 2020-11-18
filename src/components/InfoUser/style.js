@@ -2,12 +2,15 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
- width: 100%;
+ width: 68%;
  display: flex;
+ flex-direction:column;
  justify-content:center;
  background-color: white;
- padding: 50px 50px 0 50px;
-
+ margin:auto;
+ padding-top:110px;
+ padding-bottom: 10px;
+ box-sizing: border-box;
 
  @media (max-width: 600px){
 
@@ -16,16 +19,27 @@ export const Container = styled.div`
  }
 `;
 
+export const Pessoal = styled.div`
+
+width: 100%;
+display: flex;
+justify-content:center;
+padding-bottom: 70px;
+
+`;
+
 export const Avatar = styled.div`
 
-    width: 50vw;
+    width: 400px;
     display: flex;
-    justify-content:center;
+    justify-content:left;
 
     >img {
-
-       width: 70%;
-       margin: auto;
+       width: 245px;
+       height: 245px;
+       margin-left:18px;
+       border-radius:50%;
+       box-sizing: border-box;
 
     }
 
@@ -35,7 +49,7 @@ export const Avatar = styled.div`
         margin: auto;
 
         >img {
-
+      
             width: 100%;
         }
     }
@@ -43,7 +57,7 @@ export const Avatar = styled.div`
 
 export const Informacao = styled.div`
 
-    width: 50vw;
+    width:calc(100% - 400px);
     margin: auto;
 
     @media (max-width: 600px){
@@ -53,16 +67,33 @@ export const Informacao = styled.div`
 
 
 `;
+export const Titulo = styled.div`
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
 
+    color: #020733;
+    margin-bottom: 20px;
+`;
 
 export const User = styled.div`
 
-    width:80%;
-    font-weight:500;
-    font-size: 1rem;
-    color: black;
-    margin-bottom: 20px;
-    line-height: 23px;
+    
+   font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.2544px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #292929;
+    margin-bottom: 30px;
 
     @media (max-width: 600px){
 
@@ -70,4 +101,30 @@ export const User = styled.div`
     font-size: 1.1rem;
     }
     
+`;
+
+export const Formacao = styled.div`
+
+width: 100%;
+
+.forTEXT{
+
+    width: 631px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.2544px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #292929;
+  
+
+    @media (max-width: 600px){
+
+    width:100%;
+    font-size: 1.1rem;
+    }
+}
 `;

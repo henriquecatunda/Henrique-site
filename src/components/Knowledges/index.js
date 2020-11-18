@@ -1,22 +1,23 @@
 import React from "react";
-import {Container, GridKnowledge , Title, Linha, Descricao , Img} from './style';
-import Html from '../../assets/html.jpg';
-import css from '../../assets/css.jpg';
-import JS from '../../assets/js.jpg';
+import {Container, GridKnowledge , Title, Linha, Containes , Img} from './style';
+
+import css from '../../assets/css.png';
 import Reactimg from '../../assets/react.jpg';
-import Node from '../../assets/node.jpg';
-import Bootstrap from '../../assets/bootstrap.jpg';
-import Design from '../../assets/design.jpg';
+import Node from '../../assets/nodejs.png';
+import Bootstrap from '../../assets/bootstrap.png';
+import Figma from '../../assets/figma.png';
 
 
 function Knowledges(){
 
     return(
+  <Container>
+        <h3> Technology </h3>
 
-        <Container>
+        <Containes>
 
           <GridKnowledge>     
-               <Img> <img   src={Html} alt="gameflix"/>  </Img> 
+               <Img> <img   src={css} alt="gameflix"/>  </Img> 
                 <Title>HTML</Title>
                 <Linha/>
                 {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
@@ -30,7 +31,7 @@ function Knowledges(){
           </GridKnowledge>
 
              <GridKnowledge>     
-                  <Img>  <img   src={JS} alt="gameflix"/>  </Img> 
+                  <Img>  <img   src={css} alt="gameflix"/>  </Img> 
                   <Title>JavaScript</Title>
                   <Linha/>
                   {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
@@ -60,20 +61,15 @@ function Knowledges(){
           </GridKnowledge>
 
           <GridKnowledge>     
-               <Img><img   src={Design} alt="gameflix"/>  </Img>
-                <Title>Design UI/UX</Title>
+               <Img><img   src={Figma} alt="gameflix"/>  </Img>
+                <Title>Figma</Title>
                 <Linha/>
                 {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
           </GridKnowledge>
 
-          <GridKnowledge>     
-                <Img><img   src={Reactimg} alt="gameflix"/> </Img> 
-                <Title>React-Native</Title>
-                <Linha/>
-                {/* <Descricao>hhhhhhhhhhhhhhhhhhh</Descricao> */}
-          </GridKnowledge>
-
-        </Container>
+          
+        </Containes>
+</Container>
     );
 
 }

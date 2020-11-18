@@ -1,11 +1,28 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width: 80%;
+ width: 68%;
+ 
+ padding-bottom:83px;
+ margin:auto;
+
+ h3{
+     margin-bottom:30px;
+     font-family: 'Roboto', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 23.0582px;
+     line-height: 27px;
+     color: #000000;
+ }
+
+`;
+
+export const Containes = styled.div`
+ width: 100%;
  display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr;
- grid-gap: 50px;
- padding: 50px 50px 100px 50px ;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ grid-gap: 36px;
  margin:auto;
 
  @media (max-width: 600px){
@@ -15,9 +32,7 @@ width: 80%;
     grid-gap: 40px;
     padding: 50px 10px 50px 10px ;
 
-
 }
-
 
 `;
 
@@ -26,6 +41,12 @@ export const GridKnowledge = styled.div`
     display: flex;
     flex-direction: column;
     align-content:center;
+
+    width: 98.96px;
+    height: 98px;
+    background: #242B6B;
+    border-radius: 7.68608px;
+
     
 `;
 
@@ -33,25 +54,27 @@ export const Img = styled.div`
 display:flex;
 flex-direction:column;
 align-items: center;
-margin-bottom: 15px;
- 
->img {
-width: 50px;
-height: 50px;
+margin-bottom: 5px;
+margin-top:10px;
+    
+    >img {
+    width: 43px;
+    height: 43px;
 
 
-}
-
-
+    }
 `;
-
 
 export const Title = styled.div`
 
-font-weight:500;
-font-size: 0.9rem;
-color: black;
-text-align: center;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14.4114px;
+line-height: 17px;
+text-align:center;
+
+color: #FFFFFF;
 
 
 `;

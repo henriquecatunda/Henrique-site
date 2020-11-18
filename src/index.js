@@ -10,8 +10,8 @@ ReactDOM.render(
 
   <BrowserRouter>
     <Switch>           
-      <Route path="/" component={App} exact/>
-      <Route path="/portfolio" component={Portfolio} exact/>        
+      <Route path="/About" component={App} exact/>
+      <Route path="/" component={Portfolio} exact/>        
       <Route component={Pagina404}/> 
     </Switch>
 </BrowserRouter>,

@@ -118,7 +118,7 @@ color: var(--white);
   background-color: #E80000;
   box-sizing: border-box;
   cursor: pointer;
-  padding: 10px 40px;
+  padding: 11px 40px;
   font-style: normal;
   /* font-weight: bold; */
   font-size: 14px;

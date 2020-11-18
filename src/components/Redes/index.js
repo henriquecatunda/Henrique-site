@@ -1,0 +1,44 @@
+import React from "react";
+import {ButtonContato} from "../Header/style";
+import {Container, Avatar, Informacao, User,Titulo,ButtonPortfolio } from './style';
+import fundo from '../../assets/fundo.png';
+
+function InfoUser(){
+
+
+    return (
+
+        <Container>
+ 
+             <Avatar>
+                <img   src={fundo} alt="gameflix"/> 
+            </Avatar>
+
+            <Informacao>
+
+                    <Titulo>
+                       Development of websites and web applications with a focus on UI-UX design
+                    </Titulo>
+                    <User>
+                       Design, build and optimize the interfaces of a web project, efficient and satisfactory solutions for its users
+                    </User>
+
+                 
+                    <a href="https://www.behance.net/henriquecatunda"  target="_blank" >
+                    <ButtonContato> Behance </ButtonContato>
+                     </a>
+
+                     <a href="https://github.com/henriquecatunda"  target="_blank" >
+                     < ButtonPortfolio> Github </ ButtonPortfolio>
+                     </a>
+
+
+            </Informacao>
+        
+        </Container>
+
+    );
+}
+
+
+export default InfoUser;

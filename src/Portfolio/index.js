@@ -2,6 +2,7 @@ import React from 'react';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import Projetos from '../components/Projetos'
+import Voltar from '../components/Voltar';
 
 
 function Portfolio() {
@@ -9,6 +10,7 @@ function Portfolio() {
         <>
          <Menu/>
          <Projetos/>
+         <Voltar/>
          <Footer/>
          </>
     );

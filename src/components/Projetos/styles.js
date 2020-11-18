@@ -2,36 +2,43 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
- width: 100%;
- display: flex;
- flex-direction: column;
- align-items: center;
- padding: 100px ;
- background-color:var(--black);
- justify-content: center;
+ width: 84%;
+ height: auto;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ background-color: white;
+ justify-content: space-between;
+ margin: auto;
+ margin-top:125px;
+ 
 
  @media (max-width: 600px){
 
-  padding: 10px;
- }
+  width:100vw;
+  grid-template-columns: 1fr;
+
+}
  
 
 `;
 
 export const MyProjeto= styled.div`
-  width: 65%;
-  height: 260px;
+  width: 558px;
   display: flex;
   flex-direction:column;
   justify-content:space-between;
-  margin-bottom: 60px;
-  padding: 10px;
-  
+  margin-bottom: 40px;
+
+  a{
+  text-decoration: none;
+  }
+
   .buttonLink{
 
   display: flex;
   justify-content: space-between;
-}
+   }
+
 
   @media (max-width: 600px){
 
@@ -55,14 +62,25 @@ export const MyProjeto= styled.div`
 
 export const Profite = styled.div`
 
- width: 100%;
+ width: 558px;
  display: flex;
- justify-content: space-between;
- 
+ flex-direction: column;
+ justify-content: center;
+ align-items:center;
+ position: relative;
+
 
  .info{
 
-  width: 50%;
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+ 
+  border-bottom: 0.961118px solid #C1C1C1;
+  margin:auto;
+  margin-top:10px;
+
+
 
  }
 
@@ -75,29 +93,26 @@ export const Profite = styled.div`
 
     .info{
 
-    width: 100%;
-
+     width: 100%;
+    
     }
-
- 
-
-
  }
 
 `;
 
 export const Img = styled.div`
 
-width: 48%;
-margin-right:30px;
+width: 533px;
+height: 346px;
+
 
 display:flex;
 align-items:center;
+margin:auto;
 
 
 >img {
 
-    width: 100%;
     height: 100%;
 }
 
@@ -112,11 +127,15 @@ margin: auto;
 `;
 
 export const Title = styled.div`
-    font-weight:bold;
-    width: 200px;
-    font-size: 1.5rem;
-    color:white;
-    margin-bottom:20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:500;
+    width: auto;
+    font-size: 19px;
+    color: #0E1338;
+    margin-bottom:6px;
+    margin-left:5px;
+
 
     @media (max-width: 600px){
      
@@ -131,11 +150,13 @@ export const Title = styled.div`
 `;
 
 export const Descricao = styled.div`
-    font-weight:400;
-    font-size: 0.8rem;
-    color: whitesmoke ;
-    margin-bottom:10px;
-    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:500;
+    font-size: 18px;
+    color: black;
+    margin-bottom:6px;
+    margin-right: 3px;
 
 
     @media (max-width: 600px){
@@ -148,7 +169,36 @@ export const Descricao = styled.div`
 
 export const Linguagens = styled.div`
 
-margin: 10px 0 10px 0;
+
+   width: 533px;
+   height: 400px;
+   background-color: rgba(255, 255, 255, 0.4);
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   position:absolute;
+   text-align:center;
+   color: #0E1338;
+   opacity: 0;
+   margin:auto;
+   padding-top: 73px;
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:600;
+    font-size: 30px;
+}
+
+
+   transition: opacity .3s;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+    
+
 
 `;
 

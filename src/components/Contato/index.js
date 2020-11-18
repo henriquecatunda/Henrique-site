@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, ContatoSocial} from './style.js';
-import Logo from '../../assets/mail.png';
+import Logo from '../../assets/mail.jpg';
 import GitHub from '../../assets/github.png';
 import Behance from '../../assets/behance.png';
 import linkedin from '../../assets/linkedin.png';
@@ -27,7 +27,7 @@ function Contato(){
           </ContatoSocial>
 
           <ContatoSocial>     
-            <a  target="_blank" href="https://github.com/henriquecatunda"  rel="noopener"> 
+            <a  target="_blank" href="https://www.behance.net/henriquecatunda"  rel="noopener"> 
                 <img src={Behance} alt="gameflix"/> 
             </a>
           </ContatoSocial>

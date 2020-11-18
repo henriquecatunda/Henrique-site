@@ -4,7 +4,7 @@ export const Container = styled.div`
 
  display: flex;
  justify-content: flex-start;
- padding: 25px 20px 0 0px;
+ 
  
 
 `;
@@ -19,8 +19,8 @@ export const ContatoSocial = styled.div`
 
  > a img {
 
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 29px;
  }
 
   &:hover,

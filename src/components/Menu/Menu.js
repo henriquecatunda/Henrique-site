@@ -5,9 +5,9 @@ import styled from 'styled-components';
 export const Containe = styled.div`
 
     width: 100%;
-    height: 80px;
+    height: 90px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
   
     
@@ -17,8 +17,8 @@ export const Containe = styled.div`
     padding-left: 5%;
     padding-right: 5%;
   
-    background: var(--black);
-    color: rgb(238, 238, 238);
+    background:white;
+    color: black;
 
     @media (max-width: 600px){
     padding-left: 5px;
@@ -28,12 +28,31 @@ export const Containe = styled.div`
     }
 `;
 
+export const Home = styled.div`
+
+transition: opacity .3s;
+
+> a img {
+
+width: 51px;
+height: 51px;
+}
+
+&:hover,
+  &:focus {
+    opacity: .5;
+  }
+
+`;
 
 export const MenuInfo = styled.div`
 
+      width:260px;
+      text-align:center;
+
      >a{ margin-right: 25px;
       font-weight: 500;
-      font-size: 14px;
+      font-size: 17px;
       text-decoration: none;
       transition: opacity .3s;
       padding: 7px 10px;

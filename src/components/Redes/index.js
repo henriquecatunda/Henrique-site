@@ -23,7 +23,7 @@ function InfoUser(){
                        Design, build and optimize the interfaces of a web project, efficient and satisfactory solutions for its users
                     </User>
 
-                 
+                    <div>
                     <a href="https://www.behance.net/henriquecatunda"  target="_blank" >
                     <ButtonContato> Behance </ButtonContato>
                      </a>
@@ -31,7 +31,7 @@ function InfoUser(){
                      <a href="https://github.com/henriquecatunda"  target="_blank" >
                      < ButtonPortfolio> Github </ ButtonPortfolio>
                      </a>
-
+                    </div>
 
             </Informacao>
         

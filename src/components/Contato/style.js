@@ -5,7 +5,14 @@ export const Container = styled.div`
  display: flex;
  justify-content: flex-start;
  
- 
+ @media (max-width: 600px){
+
+   opacity: 1;
+   position:absolute;
+   margin-top: 130px;
+   width: 90%;
+   margin-left: 29px;
+ }
 
 `;
 
@@ -19,8 +26,8 @@ export const ContatoSocial = styled.div`
 
  > a img {
 
-  width: 30px;
-  height: 29px;
+  width: 25px;
+  height: 23px;
  }
 
   &:hover,

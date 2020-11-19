@@ -14,7 +14,7 @@ export const Container = styled.div`
  @media (max-width: 600px){
 
     display: inline-block;
-    padding: 50px 10px 0 10px;
+    height:auto;
  }
 `;
 
@@ -33,12 +33,13 @@ export const Avatar = styled.div`
 
     @media (max-width: 600px){
 
-        width: 80vw;
-        margin: auto;
+        width: 100%;
+        height: auto;
 
         >img {
       
             width: 100%;
+            height: 320px;
         }
     }
 `;
@@ -51,7 +52,12 @@ export const Informacao = styled.div`
 
     @media (max-width: 600px){
 
-    width:80vw;
+    width:85%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
     }
 
 
@@ -70,6 +76,12 @@ export const Titulo = styled.div`
     color: #020733;
     margin-bottom: 25px;
     margin-top: 120px;
+
+    @media (max-width: 600px){
+        width: 100%;
+        margin-top: 40px;
+
+    }
 `;
 
 export const User = styled.div`

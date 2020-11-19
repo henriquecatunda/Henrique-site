@@ -8,8 +8,8 @@ function Footer() {
 
       <Infor>
 
-        <h3> Entre em contato </h3>
-        <p> Estou ancioso pela sua mensagem </p>
+        <h3> Contact </h3>
+        <p> I'm looking forward to your message</p>
 
         <Contatos>
 
@@ -28,18 +28,19 @@ function Footer() {
 
     <Formulario>
 
-        <form action="./formulario-contato.php" method="POST">
+        {/* <form action="./formulario-contato.php" method="POST"> */}
+        <form>
             <div>
                 <label for="nome">Name</label> <br/>
-                <input type="texto" id="nome" name="Usuario"/>
+                <input type="texto" id="nome" name="Usuario" placeholder="  Your Name..."/>
             </div>
             <div>
                 <label for="email">Email Address *</label><br/>
-                <input type="email" id="email" name="email"/>
+                <input type="email" id="email" name="email" placeholder="  Your Email Address..."/>
             </div>
             <div>
                 <label for="texto">Message *</label><br/>
-                <textarea id="texto" name="mensagem"></textarea>
+                <textarea id="texto" name="mensagem" placeholder="  Your Message..."></textarea>
             </div>
 
             <div className="button">

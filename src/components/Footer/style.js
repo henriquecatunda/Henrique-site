@@ -8,6 +8,13 @@ export const FooterForm = styled.footer`
     justify-content: center;
     margin: auto;
     margin-top: 100px;
+
+    @media (max-width: 600px) {
+
+      width: 90%;
+      margin-top: 20px;
+   
+   }
 `;
 
 export const FooterBase = styled.footer`
@@ -28,6 +35,7 @@ export const FooterBase = styled.footer`
   } */
   @media (max-width: 600px) {
     margin-bottom: 0;
+    flex-direction:column;
   }
 `;
 
@@ -56,6 +64,12 @@ export const  Infor = styled.footer`
     color: #292929;
    
   }
+
+  @media (max-width: 600px) {
+    margin-bottom: 10px;
+    width: 100%;
+    
+  }
 `;
 
 export const  Contatos = styled.footer`
@@ -81,6 +95,18 @@ export const  Contatos = styled.footer`
 
       
      }
+
+     @media (max-width: 600px) {
+
+      h4{
+        margin-bottom:15px;
+        margin-top:0;
+        font-size: 21px;
+        color: #101010;
+        font-weight: 500 ;
+       }
+  
+    }
    
 `;
 
@@ -156,6 +182,32 @@ export const Formulario = styled.footer`
     }
 
   }
+
+  @media (max-width: 600px) {
+
+    width: 90%;
+    margin:auto;
+    
+    label {
+    width: 100%;
+    height: 16.15px;
+  
+  }
+
+  input{
+    width: 100%;
+    height: 35px;
+
+  }
+
+  textarea{
+    width: 100%;
+    height: 110px;
+  
+  }
+
+    
+  }
   
 `;
 
@@ -180,7 +232,15 @@ export const Direitos = styled.footer`
     a{
     text-decoration:none;
     }
+
+    @media (max-width: 600px) {
+      .footerInfo {
+     
+      font-size: 10px;
+     
+    }
     
+  }
   }
 
 `;

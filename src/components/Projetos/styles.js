@@ -42,12 +42,11 @@ export const MyProjeto= styled.div`
 
   @media (max-width: 600px){
 
-    width: 95%;
+    width: 90%;
     height: auto; 
     flex-direction:column;
+    margin:auto;
     margin-top: 20px;
-
-
 
     .buttonLink{
 
@@ -118,9 +117,16 @@ margin:auto;
 
 @media (max-width: 600px){
 
-width: 80%;
+width: 100%;
+height:95%;
 margin-right:0px;
 margin: auto;
+
+>img {
+   width: 100%;
+   height: 100%;
+}
+
 
 }
 
@@ -141,9 +147,9 @@ export const Title = styled.div`
      
       width:auto;
       margin:auto;
-      margin-top: 20px;
-      margin-bottom:20px;
-      text-align:center;
+      margin-top: 10px;
+      margin-bottom:10px;
+      margin-left:0;
 
     }
     
@@ -162,6 +168,9 @@ export const Descricao = styled.div`
     @media (max-width: 600px){
      
     margin:auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-right:0;
 
    }
 

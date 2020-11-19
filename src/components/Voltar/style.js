@@ -13,10 +13,10 @@ justify-content: flex-end;
 export const ContatoSocial = styled.div`
 
   position: fixed;
-  width: 65.36px;
-  height: 65.36px;
-  background: #3D3D3D;
-  box-shadow: 0px 1.92224px 9.61118px rgba(0, 0, 0, 0.25);
+  width: 60.36px;
+  height: 60.36px;
+  background: #A0A0A0;
+ 
   border-radius: 50%;
   margin: 35px;
   margin-top: 80vh;
@@ -41,8 +41,8 @@ export const ContatoSocial = styled.div`
 
  > a img {
 
-  width: 33px;
-  height: 31px;
+  width: 30px;
+  height: 29px;
  }
 
   &:hover,
@@ -50,6 +50,11 @@ export const ContatoSocial = styled.div`
     opacity: .5;
     
 
+  }
+
+  @media (max-width: 600px) {
+
+    opacity: 0;
   }
 
 `;

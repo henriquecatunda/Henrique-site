@@ -26,7 +26,7 @@ function InfoUser(){
                     </User>
 
                     <a href={Curriculo}  target="_blank" >
-                    <ButtonContato> curriculum </ButtonContato>
+                    <ButtonContato> Curriculum </ButtonContato>
                      </a>
 
             </Informacao>

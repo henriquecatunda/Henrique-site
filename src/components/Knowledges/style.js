@@ -27,11 +27,9 @@ export const Containes = styled.div`
 
  @media (max-width: 600px){
 
-   width:100vw;
-   grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 40px;
-    padding: 50px 10px 50px 10px ;
-
+   grid-template-columns: 1fr 1fr ;
+   
+    
 }
 
 `;

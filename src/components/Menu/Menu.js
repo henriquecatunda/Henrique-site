@@ -43,19 +43,30 @@ height: 51px;
     opacity: .5;
   }
 
+  @media (max-width: 600px){
+
+    > a img {
+
+    width: 41px;
+    height: 41px;
+    }
+       
+  }
+
 `;
 
 export const MenuInfo = styled.div`
 
-      width:260px;
-      text-align:center;
+      width:226px;
+      text-align:right;
 
-     >a{ margin-right: 25px;
+     >a{ margin-right: 0;
+     margin-left: 25px;
       font-weight: 500;
       font-size: 17px;
       text-decoration: none;
       transition: opacity .3s;
-      padding: 7px 10px;
+      padding: 7px 0px;
 
       &:hover,
       &:focus {
@@ -63,12 +74,16 @@ export const MenuInfo = styled.div`
       }
 
       @media (max-width: 600px){
-
+       
         padding: 5px 5px;
-        margin-right: 15px;
         margin-left:15px;
+        margin-right: 0;
       }
 
 
+     }
+
+     @media (max-width: 600px){
+      text-align:right;
      }
 `;

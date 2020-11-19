@@ -15,7 +15,7 @@ export const Container = styled.div`
  @media (max-width: 600px){
 
     display: inline-block;
-    padding: 50px 10px 0 10px;
+
  }
 `;
 
@@ -25,6 +25,12 @@ width: 100%;
 display: flex;
 justify-content:center;
 padding-bottom: 70px;
+
+@media (max-width: 600px){
+
+ flex-direction: column;
+ padding-bottom: 45px;
+}
 
 `;
 
@@ -45,12 +51,14 @@ export const Avatar = styled.div`
 
     @media (max-width: 600px){
 
-        width: 80vw;
+        width: 100%;
         margin: auto;
 
         >img {
       
-            width: 100%;
+           width: 200px;
+           height: 200px;
+           margin: auto;
         }
     }
 `;
@@ -62,7 +70,8 @@ export const Informacao = styled.div`
 
     @media (max-width: 600px){
 
-    width:80vw;
+    width:100%;
+    margin-top: 40px
     }
 
 

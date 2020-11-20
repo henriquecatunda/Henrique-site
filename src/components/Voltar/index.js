@@ -7,10 +7,15 @@ import voltar from '../../assets/voltar.png';
 function Voltar(){
 
   
-    function transicao(e){
-        e.animate({ scrollTop : 0});
-        TransitionEvent()
-        return false;
+    function transicao(){
+    
+       window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+       
+        
     };
  
     return (
@@ -18,9 +23,9 @@ function Voltar(){
         <Container>
 
            <ContatoSocial>     
-            <a  href="#"  > 
+            <button type="button" onClick={transicao} > 
                 <img   src={voltar} alt="gameflix"/> 
-            </a>
+            </button>
           </ContatoSocial>
 
         </Container>

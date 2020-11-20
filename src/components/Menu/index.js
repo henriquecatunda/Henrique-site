@@ -1,7 +1,6 @@
 import React from "react";
 import { Link} from 'react-router-dom';
 import {Containe, MenuInfo, Home} from './Menu.js';
-import ButtonLink from "../ButtonLink";
 import Contato from "../Contato/index.js";
 import Hc from '../../assets/Hc.png';
 

@@ -64,9 +64,9 @@ function Header(){
 
             {/* <ImgHeader>
 
-            <img   src={headerimg2} alt="gameflix"/> 
+            <img   src={headerimg} alt="gameflix"/> 
             
-            </ImgHeader> */}
+            </ImgHeader>  */}
 
 
         </Container>

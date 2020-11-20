@@ -206,8 +206,12 @@ p{
     &:focus {
       opacity: 1;
     }
-    
 
+    @media (max-width: 600px){
+
+     width: 100%;
+    
+    }
 
 `;
 

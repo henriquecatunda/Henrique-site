@@ -39,7 +39,7 @@ export const Avatar = styled.div`
         >img {
       
             width: 100%;
-            height: 320px;
+            height: 290px;
         }
     }
 `;
@@ -91,7 +91,7 @@ export const User = styled.div`
     font-style: normal;
     font-weight: normal;
     font-size: 18.2544px;
-    line-height: 21px;
+    line-height: 25px;
     display: flex;
     align-items: center;
 

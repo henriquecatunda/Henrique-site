@@ -25,7 +25,7 @@ function InfoUser(){
                      Graduating in Information Systems at the Federal University of Ceará (UFC) in Crateús-Ce and technician in Finance. More informal about my complementary activities and experiences, my resume follows below.
                     </User>
 
-                    <a href={Curriculo}  target="_blank" >
+                    <a href={Curriculo}  target="_blank" rel="noopener noreferrer">
                     <ButtonContato> Curriculum </ButtonContato>
                      </a>
 

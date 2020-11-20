@@ -24,11 +24,11 @@ function InfoUser(){
                     </User>
 
                     <div>
-                    <a href="https://www.behance.net/henriquecatunda"  target="_blank" >
+                    <a href="https://www.behance.net/henriquecatunda"  target="_blank" rel="noopener noreferrer">
                     <ButtonContato> Behance </ButtonContato>
                      </a>
 
-                     <a href="https://github.com/henriquecatunda"  target="_blank" >
+                     <a href="https://github.com/henriquecatunda"  target="_blank" rel="noopener noreferrer" >
                      < ButtonPortfolio> Github </ ButtonPortfolio>
                      </a>
                     </div>

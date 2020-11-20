@@ -23,7 +23,7 @@ export const Containe = styled.div`
     @media (max-width: 600px){
     padding-left: 5px;
     padding-right: 5px;
-    justify-content: center;
+    justify-content: space-evenly;
 
     }
 `;
@@ -61,7 +61,7 @@ export const MenuInfo = styled.div`
       text-align:right;
 
      >a{ margin-right: 0;
-     margin-left: 25px;
+      margin-left: 38px;
       font-weight: 500;
       font-size: 17px;
       text-decoration: none;
@@ -71,6 +71,7 @@ export const MenuInfo = styled.div`
       &:hover,
       &:focus {
         opacity: .5;
+        
       }
 
       @media (max-width: 600px){

@@ -2,12 +2,12 @@ import React from 'react';
 import Proffy from '../../assets/projetos/proffy.png'
 import Gamedev from '../../assets/projetos/gamedev.png'
 import Ecoleta from '../../assets/projetos/ecoleta.png'
-import Discord from '../../assets/projetos/discord.png'
+
 import ichiraku from '../../assets/projetos/ichiraku.png'
 import svg from '../../assets/projetos/svg.png'
 import viace from '../../assets/projetos/viace.png'
 import {Container, MyProjeto, Img, Profite,Title, Descricao, Linguagens} from './styles';
-import {ButtonContato }from '../../components/Header/style';
+
 
 function Portfolio(){
 
@@ -16,7 +16,7 @@ function Portfolio(){
         <Container>
 
             <MyProjeto>
-                <a href="https://www.behance.net/gallery/107737225/VIACE" target="_blank"> 
+                <a href="https://www.behance.net/gallery/107737225/VIACE" target="_blank" rel="noopener noreferrer"> 
                 <Profite>
 
                     <Img> <img   src={viace} alt="gameflix"/>   </Img>
@@ -33,7 +33,7 @@ function Portfolio(){
 
 
             <MyProjeto>
-                <a href="https://www.behance.net/gallery/103289193/Sgp" target="_blank"> 
+                <a href="https://www.behance.net/gallery/103289193/Sgp" target="_blank" rel="noopener noreferrer"> 
                 <Profite>
 
                     <Img> <img   src={svg} alt="gameflix"/>   </Img>
@@ -49,7 +49,7 @@ function Portfolio(){
             </MyProjeto>
 
             <MyProjeto>
-                <a href="https://github.com/henriquecatunda/Ichiraku" target="_blank"> 
+                <a href="https://github.com/henriquecatunda/Ichiraku" target="_blank" rel="noopener noreferrer"> 
                 <Profite>
 
                     <Img> <img   src={ichiraku} alt="gameflix"/>   </Img>
@@ -66,7 +66,7 @@ function Portfolio(){
 
             <MyProjeto>
 
-                <a href="https://github.com/henriquecatunda/Proffy-Web"  target="_blank" rel="noopener"> 
+                <a href="https://github.com/henriquecatunda/Proffy-Web"  target="_blank" rel="noopener noreferrer"> 
                 <Profite>
                     
                 <Img> <img   src={Proffy} alt="gameflix"/>   </Img>
@@ -83,7 +83,7 @@ function Portfolio(){
             </MyProjeto>
 
             <MyProjeto>
-                <a href="https://github.com/henriquecatunda/gameflix"  target="_blank"> 
+                <a href="https://github.com/henriquecatunda/gameflix"  target="_blank" rel="noopener noreferrer"> 
                 <Profite>
                    
                     <Img> <img   src={Gamedev} alt="gameflix"/>   </Img>
@@ -102,7 +102,7 @@ function Portfolio(){
 
 
             <MyProjeto>
-                <a href="https://github.com/henriquecatunda/AppWeb-EColeta"  target="_blank"> 
+                <a href="https://github.com/henriquecatunda/AppWeb-EColeta"  target="_blank" rel="noopener noreferrer"> 
                 <Profite>
                 
                     <Img> <img   src={Ecoleta} alt="gameflix"/>   </Img>

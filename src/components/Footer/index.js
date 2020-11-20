@@ -17,10 +17,10 @@ function Footer() {
              
            
             <a  href="/" >Telegram: @HenriqueCatunda </a><br/><br/>
-            <a  target="_blank" href="mailto:henriquecatunda2@gmail.com" rel="noopener">Email: henriquecatunda2.com </a><br/><br/>
-            <a  target="_blank" href="https://www.instagram.com/henriquecatunda/" rel="noopener">Instagram: Henriquecatunda </a><br/><br/>
-            <a  target="_blank" href="https://www.behance.net/henriquecatunda" rel="noopener">Behance: Henriquecatunda </a><br/><br/>
-            <a  target="_blank" href="https://www.linkedin.com/in/henrique-catunda-1a50851ab/" rel="noopener">Linkedin: Henriquecatunda </a><br/><br/>
+            <a  target="_blank" href="mailto:henriquecatunda2@gmail.com"rel="noopener noreferrer">Email: henriquecatunda2.com </a><br/><br/>
+            <a  target="_blank" href="https://www.instagram.com/henriquecatunda/" rel="noopener noreferrer">Instagram: Henriquecatunda </a><br/><br/>
+            <a  target="_blank" href="https://www.behance.net/henriquecatunda" rel="noopener noreferrer">Behance: Henriquecatunda </a><br/><br/>
+            <a  target="_blank" href="https://www.linkedin.com/in/henrique-catunda-1a50851ab/" rel="noopener noreferrer">Linkedin: Henriquecatunda </a><br/><br/>
             
         </Contatos>
 
@@ -31,15 +31,15 @@ function Footer() {
         {/* <form action="./formulario-contato.php" method="POST"> */}
         <form>
             <div>
-                <label for="nome">Name</label> <br/>
+                <label htmlFor="nome">Name</label> <br/>
                 <input type="texto" id="nome" name="Usuario" placeholder="  Your Name..."/>
             </div>
             <div>
-                <label for="email">Email Address *</label><br/>
+                <label htmlFor="email">Email Address *</label><br/>
                 <input type="email" id="email" name="email" placeholder="  Your Email Address..."/>
             </div>
             <div>
-                <label for="texto">Message *</label><br/>
+                <label htmlFor="texto">Message *</label><br/>
                 <textarea id="texto" name="mensagem" placeholder="  Your Message..."></textarea>
             </div>
 
@@ -62,7 +62,7 @@ function Footer() {
 
           <div className="footerInfo">
               @ 2020 {' '}
-              <a href="https://www.linkedin.com/in/henrique-catunda-1a50851ab/"  target="_blank">
+              <a href="https://www.linkedin.com/in/henrique-catunda-1a50851ab/"  target="_blank" rel="noopener noreferrer">
               Henriquecatunda 
               </a> {' '}All rights reserved
           </div>

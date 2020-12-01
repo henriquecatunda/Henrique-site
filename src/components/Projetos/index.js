@@ -6,6 +6,7 @@ import Ecoleta from '../../assets/projetos/ecoleta.png'
 import ichiraku from '../../assets/projetos/ichiraku.png'
 import svg from '../../assets/projetos/svg.png'
 import viace from '../../assets/projetos/viace.png'
+import Ichira from '../../assets/projetos/ichira.png'
 import {Container, MyProjeto, Img, Profite,Title, Descricao, Linguagens} from './styles';
 
 
@@ -14,6 +15,22 @@ function Portfolio(){
     return(
 
         <Container>
+
+            <MyProjeto>
+                <a href="https://www.behance.net/gallery/108724569/Delivery-Ichiraku" target="_blank" rel="noopener noreferrer"> 
+                <Profite>
+
+                    <Img> <img   src={Ichira} alt="gameflix"/>   </Img>
+                    <Linguagens> <p> Design Ichiraku </p> </Linguagens>
+
+                    <div className="info">
+                    <Title>UX/UI designer</Title>
+                    <Descricao>2020</Descricao>
+                    </div>
+                </Profite>          
+                </a>
+ 
+            </MyProjeto>
 
             <MyProjeto>
                 <a href="https://www.behance.net/gallery/107737225/VIACE" target="_blank" rel="noopener noreferrer"> 

@@ -1,7 +1,7 @@
 import React from "react";
 import {ButtonContato} from "../Header/style";
 import {Container, Avatar, Informacao, User,Titulo,Pessoal,Formacao} from './style';
-import AvatarImg from '../../assets/foto.jpg';
+import AvatarImg from '../../assets/foto2.jpg';
 import Curriculo from '../../Documents/Henriquecurrículo.pdf'
 
 function InfoUser(){

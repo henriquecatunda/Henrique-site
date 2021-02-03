@@ -142,3 +142,14 @@ margin-top: 15px;
   
 `;
 
+export const CaixaContato  = styled.footer`
+
+@media (max-width: 600px) {
+
+display:none;
+
+}
+
+
+
+`;

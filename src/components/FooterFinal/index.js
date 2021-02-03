@@ -1,6 +1,6 @@
 import React from 'react';
 import Voltar from '../Voltar';
-import { Container,Footer,Titulo, Menu, Descricao,Direitos } from './style';
+import { Container,Footer,Titulo, Menu, Descricao,Direitos,CaixaContato } from './style';
 import Contato from "../Contato/index.js";
 import { Link} from 'react-router-dom';
 function FooterFinal() {
@@ -39,7 +39,9 @@ function FooterFinal() {
 
           </Direitos>
          
+         <CaixaContato>
            <Contato />
+         </CaixaContato>
 
       </Footer>
       

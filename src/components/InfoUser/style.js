@@ -80,12 +80,11 @@ export const Titulo = styled.div`
     font-family: 'Righteous', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 26px;
+    font-size: 27.5px;
     line-height: 35px;
     display: flex;
     align-items: center;
-    text-transform: uppercase;
-
+    
     color: #020733;
     margin-bottom: 20px;
 `;
@@ -95,8 +94,8 @@ export const User = styled.div`
     
    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 18.2544px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 25px;
     display: flex;
     align-items: center;
@@ -121,8 +120,9 @@ width: 100%;
     width: 631px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 18.2544px;
+
+    font-weight: 400;
+    font-size: 18px;
     line-height: 25px;
     display: flex;
     align-items: center;

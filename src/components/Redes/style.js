@@ -8,7 +8,6 @@ export const Container = styled.div`
  justify-content:center;
  background: #FAFAFA;
  margin:auto;
- padding-bottom: 10px;
  box-sizing: border-box;
 
  @media (max-width: 600px){
@@ -21,13 +20,15 @@ export const Container = styled.div`
 export const Avatar = styled.div`
 
     width: 50%;
-    height:506px;
+    height:100%;
     display:flex;
     justify-content:left;
+    align-items: flex-end;
 
     >img {
-       width: 94%;
-       height: 100%;
+       width: 95%;
+       height: 95%;
+      
 
     }
 
@@ -40,6 +41,7 @@ export const Avatar = styled.div`
       
             width: 100%;
             height: 290px;
+            display:none;
         }
     }
 `;
@@ -57,6 +59,7 @@ export const Informacao = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:center;
+    margin-bottom: 30px;
 
     }
 
@@ -88,10 +91,10 @@ export const User = styled.div`
 
     width:468px;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18.2544px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 25px;
+    font-style: normal;
     display: flex;
     align-items: center;
 
@@ -112,7 +115,7 @@ export const ButtonPortfolio = styled.button`
   background-color: #FAFAFA;
   box-sizing: border-box;
   cursor: pointer;
-  padding: 9px 38px;
+  padding: 8.8px 43px;
   font-style: normal;
   font-size: 14px;
   outline: none;
@@ -122,7 +125,7 @@ export const ButtonPortfolio = styled.button`
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
-  margin-left:20px;
+  margin-left:8px;
 
   transition: opacity .3s;
   &:hover,

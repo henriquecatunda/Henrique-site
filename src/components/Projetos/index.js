@@ -16,12 +16,14 @@ function Portfolio(){
 
         <Container>
 
+           
+
             <MyProjeto>
-                <a href="https://www.behance.net/gallery/108724569/Delivery-Ichiraku" target="_blank" rel="noopener noreferrer"> 
+                <a href="https://www.behance.net/gallery/107737225/VIACE" target="_blank" rel="noopener noreferrer"> 
                 <Profite>
 
-                    <Img> <img   src={Ichira} alt="gameflix"/>   </Img>
-                    <Linguagens> <p> Design Ichiraku </p> </Linguagens>
+                    <Img> <img   src={viace} alt="gameflix"/>   </Img>
+                    <Linguagens> <p>  Viace </p> </Linguagens>
 
                     <div className="info">
                     <Title>UX/UI designer</Title>
@@ -33,11 +35,11 @@ function Portfolio(){
             </MyProjeto>
 
             <MyProjeto>
-                <a href="https://www.behance.net/gallery/107737225/VIACE" target="_blank" rel="noopener noreferrer"> 
-                <Profite>
-
-                    <Img> <img   src={viace} alt="gameflix"/>   </Img>
-                    <Linguagens> <p>  Viace </p> </Linguagens>
+                <a href="https://www.behance.net/gallery/108724569/Delivery-Ichiraku" target="_blank" rel="noopener noreferrer"> 
+                <Profite> 
+       
+                    <Img> <img   src={Ichira} alt="gameflix"/>   </Img>
+                    <Linguagens> <p> Design Ichiraku </p> </Linguagens>
 
                     <div className="info">
                     <Title>UX/UI designer</Title>
@@ -118,7 +120,7 @@ function Portfolio(){
 
 
 
-            <MyProjeto>
+            {/*<MyProjeto>
                 <a href="https://github.com/henriquecatunda/AppWeb-EColeta"  target="_blank" rel="noopener noreferrer"> 
                 <Profite>
                 
@@ -133,7 +135,7 @@ function Portfolio(){
                 </Profite>
                 </a>
        
-            </MyProjeto>
+            </MyProjeto>*/}
 
           
 

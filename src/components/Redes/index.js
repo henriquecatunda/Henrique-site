@@ -1,7 +1,7 @@
 import React from "react";
 import {ButtonContato} from "../Header/style";
 import {Container, Avatar, Informacao, User,Titulo,ButtonPortfolio } from './style';
-import fundo from '../../assets/fundo.png';
+import fundo from '../../assets/fundotec.png';
 
 function InfoUser(){
 

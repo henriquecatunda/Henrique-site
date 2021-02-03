@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
  width: 68%;
  
- padding-bottom:83px;
+ padding-bottom:115px;
  margin:auto;
 
  h3{
@@ -13,7 +13,8 @@ export const Container = styled.div`
      font-weight: 500;
      font-size: 23.0582px;
      line-height: 27px;
-     color: #000000;
+     color: #22264D;
+
  }
 
 `;
@@ -42,7 +43,7 @@ export const GridKnowledge = styled.div`
 
     width: 98.96px;
     height: 98px;
-    background: #242B6B;
+    background: #1BBDC8;
     border-radius: 7.68608px;
 
     

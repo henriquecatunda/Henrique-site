@@ -11,7 +11,7 @@ export const Container = styled.div`
    position:absolute;
    margin-top: 130px;
    width: 90%;
-   margin-left: 29px;
+
  }
 
 `;
@@ -28,6 +28,7 @@ export const ContatoSocial = styled.div`
 
   width: 25px;
   height: 23px;
+  
  }
 
   &:hover,

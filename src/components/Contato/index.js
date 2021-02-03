@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, ContatoSocial} from './style.js';
-import Logo from '../../assets/mail.jpg';
+import Logo from '../../assets/mail.png';
 import GitHub from '../../assets/github.png';
 import Behance from '../../assets/behance.png';
 import linkedin from '../../assets/linkedin.png';

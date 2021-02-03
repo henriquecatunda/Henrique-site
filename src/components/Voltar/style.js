@@ -7,19 +7,20 @@ width: 100%;
 display: flex;
 justify-content: flex-end;
 
+margin-bottom: -40px;
 
 `;
 
 export const ContatoSocial = styled.div`
 
-  position: fixed;
-  width: 60.36px;
-  height: 60.36px;
+  //position: fixed;
+  width: 50.36px;
+  height: 50.36px;
   //background: rgba(0, 0, 0, 0.25);;
  
   border-radius: 50%;
-  margin: 35px;
-  margin-top: 80vh;
+  margin: 20px;
+  //margin-top: 88vh;
   border:none!important;
   transition: opacity .3s;
  
@@ -28,7 +29,7 @@ export const ContatoSocial = styled.div`
    width:100%;
    height:100%;
    text-decoration: none;
-   background: rgba(0, 0, 0, 0.25);;
+   background: rgba(0, 0, 0, 0.15);;
    display: flex;
    justify-content:center;
    align-items:center;
@@ -41,8 +42,8 @@ export const ContatoSocial = styled.div`
 
  > button  img {
 
-  width: 30px;
-  height: 29px;
+  width: 28px;
+  height: 27px;
  }
 
   &:hover,

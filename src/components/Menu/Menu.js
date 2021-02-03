@@ -4,26 +4,21 @@ import styled from 'styled-components';
 
 export const Containe = styled.div`
 
-    width: 100%;
+    width: 85%;
     height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
-    
-    top: 0;
-    left: 0;
-    right: 0;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin:auto;
   
     background:white;
     color: black;
 
     @media (max-width: 600px){
+      width:90%;
     padding-left: 5px;
     padding-right: 5px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     }
 `;
@@ -31,6 +26,7 @@ export const Containe = styled.div`
 export const Home = styled.div`
 
 transition: opacity .3s;
+display:none;
 
 > a img {
 
@@ -44,6 +40,7 @@ height: 51px;
   }
 
   @media (max-width: 600px){
+    display: block;
 
     > a img {
 

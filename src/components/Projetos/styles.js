@@ -2,20 +2,21 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
- width: 84%;
+ width: 90%;
  height: auto;
  display: grid;
- grid-template-columns: 1fr 1fr;
+ grid-template-columns: 1fr 1fr 1fr;
  background-color: white;
  justify-content: space-between;
  margin: auto;
- margin-top:125px;
+ margin-top:90px;
  
 
  @media (max-width: 600px){
 
   width:100vw;
   grid-template-columns: 1fr;
+  margin-top: 70px;
 
 }
  
@@ -23,11 +24,12 @@ export const Container = styled.div`
 `;
 
 export const MyProjeto= styled.div`
-  width: 558px;
+  width: 100%;
   display: flex;
   flex-direction:column;
   justify-content:space-between;
   margin-bottom: 40px;
+  align-items:center ;
 
   a{
   text-decoration: none;
@@ -61,7 +63,7 @@ export const MyProjeto= styled.div`
 
 export const Profite = styled.div`
 
- width: 558px;
+ width: 100%;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -71,7 +73,7 @@ export const Profite = styled.div`
 
  .info{
 
-  width: 533px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
  
@@ -101,8 +103,8 @@ export const Profite = styled.div`
 
 export const Img = styled.div`
 
-width: 533px;
-height: 346px;
+width: 100%;
+height: 245px;
 
 
 display:flex;
@@ -111,7 +113,7 @@ margin:auto;
 
 
 >img {
-
+    width:350px;
     height: 100%;
 }
 
@@ -130,9 +132,25 @@ margin: auto;
 
 }
 
+@media (max-width: 1300px){
+
+width: 100%;
+height:95%;
+margin-right:0px;
+margin: auto;
+
+>img {
+    width: 350px;
+    height: 100%;
+}
+
+
+}
+
 `;
 
 export const Title = styled.div`
+  
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight:500;
@@ -179,8 +197,8 @@ export const Descricao = styled.div`
 export const Linguagens = styled.div`
 
 
-   width: 533px;
-   height: 400px;
+   width: 100%;
+   height: 275px;
    background-color: rgba(255, 255, 255, 0.4);
    display: flex;
    justify-content: center;

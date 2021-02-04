@@ -1,6 +1,6 @@
 import React from "react";
 import {ButtonContato} from "../Header/style";
-import {Container, Avatar, Informacao, User,Titulo,Descricao,Servico,TituloServico,DescricaoServico,Img } from './style';
+import {Container, Avatar, Informacao,Informacao2, User,Titulo,Descricao,Servico,TituloServico,DescricaoServico,Img } from './style';
 import fundo from '../../assets/fundoServ.png';
 import Design from '../../assets/foguete.png';
 import web from '../../assets/web.png';
@@ -28,19 +28,21 @@ function Servicos(){
 
                  </Descricao>
 
-                 <Servico>
+               
+                  <Servico>
 
-                        <Img> <img   src={Design} alt="gameflix"/>  </Img> 
+                          <Img> <img   src={Design} alt="gameflix"/>  </Img> 
 
-                        <TituloServico>
-                           Creative Design 
-                        </TituloServico>
+                          <TituloServico>
+                            Creative Design 
+                          </TituloServico>
 
-                        <DescricaoServico>
-                          Design efficient and satisfactory solutions for your users
-                        </DescricaoServico>
+                          <DescricaoServico>
+                            Design efficient and satisfactory solutions for your users
+                          </DescricaoServico>
 
-                 </Servico>
+                  </Servico>
+               
                     
 
               </Avatar>

@@ -66,7 +66,7 @@ export const Informacao = styled.div`
 
     @media (max-width: 600px){
 
-    width:85%;
+    width:100%;
     height:auto;
     display:flex;
     flex-direction:column;
@@ -77,6 +77,7 @@ export const Informacao = styled.div`
 
 
 `;
+
 export const Titulo = styled.div`
     width: 390px;
 
@@ -143,7 +144,7 @@ export const Servico = styled.div`
 
     @media (max-width: 600px){
 
-    width: 370px;
+    width: 85%;
     font-size: 1.1rem;
     margin: auto;
     margin-bottom: 30px;

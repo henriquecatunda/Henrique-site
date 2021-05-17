@@ -10,7 +10,8 @@ export const Container = styled.footer`
     justify-content: center;
     align-items:center;
     margin: auto;
-    background: #1F1F1F;
+    background: #191919;
+    
 
     @media (max-width: 600px) {
 
@@ -123,13 +124,14 @@ color: #C8C4C4;
 
 export const Direitos = styled.footer`
 
-width:313px;
+width:auto;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: 400;
 font-size: 13px;
 line-height: 19px;
+margin-right: 18px;
 
 color: #C8C4C4;
 

@@ -40,8 +40,8 @@ export const ContainerBase = styled.div`
 
 export const Servico = styled.div`
     
-    width: 340px;
-    height: 260px;
+    width: 320px;
+    height: 210px;
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -91,12 +91,11 @@ export const TituloForm = styled.div`
 
 export const TituloServico = styled.div`
 
-    width:100%;
+    width:75%;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 19px;
-    line-height: 39px;
+    font-size: 18px;
     /* or 146% */
 
     display: flex;
@@ -117,7 +116,7 @@ export const TituloServico = styled.div`
 export const DescricaoServico = styled.div`
 
     width:75%;
-    height: 105px;
+    height:40px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;

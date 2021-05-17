@@ -33,16 +33,11 @@ function FooterFinal() {
           Development of websites and web applications with a focus on UI-UX design
 
           </Descricao>
-
-          <Direitos>
-          @ 2020 Henriquecatunda All rights reserved
-
-          </Direitos>
          
-         <CaixaContato>
-           <Contato />
-         </CaixaContato>
-
+            <Direitos>
+              @ 2020 Henriquecatunda All rights reserved
+            </Direitos>
+            
       </Footer>
       
       <Voltar/>

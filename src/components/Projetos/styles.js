@@ -77,9 +77,9 @@ export const Profite = styled.div`
   display: flex;
   justify-content: space-between;
  
-  border-bottom: 0.961118px solid #C1C1C1;
+  border-bottom: 1px solid #FE4849;
   margin:auto;
-  margin-top:10px;
+  margin-top:12px;
 
 
 
@@ -155,10 +155,10 @@ export const Title = styled.div`
     font-style: normal;
     font-weight:500;
     width: auto;
-    font-size: 19px;
-    color: #0E1338;
+    font-size: 14px;
+    color: #646464;
     margin-bottom:6px;
-    margin-left:5px;
+   ;
 
 
     @media (max-width: 600px){
@@ -177,9 +177,9 @@ export const Descricao = styled.div`
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight:500;
-    font-size: 18px;
-    color: black;
-    margin-bottom:6px;
+    font-size: 15px;
+    color: #646464;
+    margin-bottom:10px;
     margin-right: 3px;
 
 

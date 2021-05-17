@@ -23,7 +23,7 @@ function Servicos(){
                           My services
                         </Titulo>
                         <User>
-                        Main areas of activity in the labor market
+                          Main areas of activity in the labor market
                         </User>
 
                  </Descricao>

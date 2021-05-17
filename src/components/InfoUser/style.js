@@ -42,7 +42,8 @@ export const Avatar = styled.div`
 
     >img {
        width: 245px;
-       height: 245px;
+       display:none;
+       
        margin-left:18px;
        border-radius:50%;
        box-sizing: border-box;
@@ -85,7 +86,7 @@ export const Titulo = styled.div`
     display: flex;
     align-items: center;
     
-    color: #020733;
+    color: #212121;
     margin-bottom: 20px;
 `;
 
@@ -128,7 +129,6 @@ width: 100%;
     align-items: center;
 
     color: #292929;
-  
 
     @media (max-width: 600px){
 

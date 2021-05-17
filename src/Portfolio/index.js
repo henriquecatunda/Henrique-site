@@ -5,6 +5,7 @@ import Projetos from '../components/Projetos'
 import Banner from '../components/Banner';
 import FooterFinal from '../components/FooterFinal';
 import Servicos from '../components/Servicos';
+import Experience from '../components/Expericence';
 
 function Portfolio() {
     return (
@@ -12,6 +13,7 @@ function Portfolio() {
          <Menu/>
          <Banner/>
          <Projetos/>
+         <Experience/>
          <Servicos/>
          <FooterFinal/>
          

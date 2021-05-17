@@ -70,35 +70,37 @@ export const Informacao = styled.div`
 `;
 
 export const SubTitulo = styled.div`
-    font-family: 'Righteous', cursive;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
 
-    color: #020733;
+    color: #454545;
 
 `;
 
 export const Titulo = styled.div`
-    font-family: 'Righteous', cursive;
+    font-family: Righteous;
     font-style: normal;
-    font-weight: bold;
-    font-size: 57px;
-    line-height: 67px;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 53px;
 
-    color: #1BBDC8;
+    color: #333636;
+
 
     margin-bottom: 24px;
-    margin-left:-2px;
+    margin-left:-1px;
 `;
 
 export const User = styled.div`
 
     width: 85%;
+    max-width: 414px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 17px;
     line-height: 25px;
     display: flex;
@@ -151,7 +153,7 @@ export const ButtonContato2 = styled.div`
 
   background-color: none;
   cursor: pointer;
-  padding: 8px 38px;
+  padding: 7px 38px;
   font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -182,7 +184,7 @@ export const ButtonContato = styled.div`
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.1));
   
-  padding: 10px 44px;
+  padding: 8px 38px;
   font-family: Roboto;
     font-style: normal;
     font-weight: 500;

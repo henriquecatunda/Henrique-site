@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
  width: 68%;
  
- padding-bottom:115px;
+ padding-bottom:100px;
  margin:auto;
 
  h3{
@@ -13,8 +13,12 @@ export const Container = styled.div`
      font-weight: 500;
      font-size: 23.0582px;
      line-height: 27px;
-     color: #22264D;
+     color: #212121;
 
+ }
+
+ @media (max-width: 600px){
+    padding-bottom:75pxpx;
  }
 
 `;

@@ -1,6 +1,7 @@
 import React from "react";
 import {Container, Avatar, Informacao, User,Titulo,Pessoal,SubTitulo,ButtonContato,ButtonContato2} from './style';
 import Bannerimg from '../../assets/banner.png';
+import Home from '../../assets/home.png';
 import Servicos from "../Servicos";
 
 function Banner(){
@@ -36,7 +37,7 @@ function Banner(){
             </Informacao>
 
             <Avatar>
-                <img   src={Bannerimg} alt="gameflix"/> 
+                <img   src={Home} alt="gameflix"/> 
             </Avatar>
 
             </Pessoal>

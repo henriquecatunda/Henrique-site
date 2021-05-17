@@ -6,7 +6,8 @@ import Menu from '../components/Menu';
 import Redes from '../components/Redes';
 import Voltar from '../components/Voltar';
 import FooterFinal from '../components/FooterFinal';
-import Experience from '../components/Expericence';
+import Education from '../components/Education';
+import ExpericenceEducation from '../components/ExpericenceEducation';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
        <InfoUser/>
        <Knowledges/>
        <Redes/>
-       <Experience/>
+       <ExpericenceEducation/>
+       
        <Footer/>
        <FooterFinal/>
 

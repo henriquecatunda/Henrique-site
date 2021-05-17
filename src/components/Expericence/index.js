@@ -1,104 +1,69 @@
 import React from 'react';
-import { FooterBase, Banner, Infor ,Esperiencias, FooterForm,Titulo,Ano, Descricao } from './style';
+import { Container,ContainerBase,TituloForm,Servico,TituloServico,DescricaoAno,DescricaoServico } from './style';
 
 function Experience() {
-  return (
-    <FooterForm>
-      
-      <FooterBase>
-        
-        <Banner>
+    return (
+        <Container>
 
-            <h3>My expericence </h3>
+            <TituloForm>My expericence </TituloForm>
 
-            <Infor>
+            <ContainerBase>
 
-            <ul>
+                <Servico>
 
-            <li>
-            <Titulo> Intern at the Software Development Practice Center - NPDS as a front end developer</Titulo>
-            <Ano> 2020 </Ano>
-            <Descricao> develop a PWA platform for complementary hours</Descricao>
-            </li>
+                    <TituloServico>
+                        Front-end Developer
+                     </TituloServico>
 
-            </ul>
+                    <DescricaoAno>
+                       Parque Tecnológico da UFC | 2021
+                    </DescricaoAno>
 
-              <ul>
+                    <DescricaoServico>
+                    Designado no desenvolvimento Front-end de um software que servirá
+                    ao proposito do Open Banking
+                    </DescricaoServico>
 
-                  <li>
-                   <Titulo>UFC - Federal University of Ceará.Project: Institutional Repository</Titulo>
-                   <Ano> 2018 </Ano>
-                   <Descricao> Control and management of Institutional repositories</Descricao>
-                  </li>
+                </Servico>
 
-              </ul>
+                <Servico>
 
-              <ul>
+                    <TituloServico>
+                        Front-end Developer
+                    </TituloServico>
 
-              <li>
-              <Titulo> UFC - Federal University of Ceará.Project: inventory management software</Titulo>
-              <Ano> 2017 </Ano>
-              <Descricao> Software development
-to manage the purchase, storage and
-consumption</Descricao>
-              </li>
+                    <DescricaoAno>
+                         Núcleo de Práticas de Desenvolvimento de Sistemas | 2020
+                    </DescricaoAno>
 
-              </ul>
+                    <DescricaoServico>
+                    Designado na construção do sistema de atividades complementares
+                    que têm por objetivo auxiliar a análise do desempenho dos discentes
+                    </DescricaoServico>
 
-             
+                </Servico>
 
-            </Infor>
+                <Servico>
 
-        </Banner>
+                    <TituloServico>
+                        Front-end Developer
+                    </TituloServico>
 
-        <Banner>
+                    <DescricaoAno>
+                         Universidade Federal do Ceará | 2017
+                    </DescricaoAno>
 
-            <h3>My education </h3>
+                    <DescricaoServico>
+                    Desenvolvimento de um software para gerenciar a compra,
+                    armazenagem e consumo de reagentes e vidrarias.
+                    </DescricaoServico>
 
-            <Esperiencias>
+                </Servico>
 
-                <ul>
+            </ContainerBase>
 
-                    <li>
-                    <Titulo> Front-end Developer ReactJS - Course completed in Digital Innovation One</Titulo>
-                    <Ano> 2020 </Ano>
-                    </li>
-                </ul>
-
-                <ul>
-
-                    <li>
-                    <Titulo>Global Fullstack Developer - Course completed in Digital Innovation One</Titulo>
-                    <Ano> 2020 </Ano>
-                    </li>
-                </ul>
-
-                <ul>
-
-                    <li>
-                    <Titulo> Next Level Week offered by Rocketseat - Fullstack ReactJS development</Titulo>
-                    <Ano> 2020 </Ano>
-                    </li>
-                </ul>
-
-                <ul>
-
-                    <li>
-                    <Titulo> Intermediate English - Course completed at National Geographic Learning</Titulo>
-                    <Ano> 2018 </Ano>
-                    </li>
-                </ul>
-
-
-            </Esperiencias>
-
-        </Banner>
-
-
-    </FooterBase>
-
-    </FooterForm>
-  );
+        </Container>
+    );
 }
 
 export default Experience;

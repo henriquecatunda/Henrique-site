@@ -303,7 +303,7 @@ export const Direitos = styled.footer`
   height: 90px;
   display:flex;
   justify-content:center;
-  background: #1F1F1F;
+  background: #191919;
   bottom:0;
   
 

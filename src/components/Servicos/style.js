@@ -14,7 +14,7 @@ export const Container = styled.div`
  .imgfundo{
       
         position:absolute;
-        top: 75px;
+        top: 85px;
         
 
     }
@@ -84,16 +84,16 @@ export const Titulo = styled.div`
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 25px;
+    line-height: 15px;
 
     display: flex;
     align-items: center;
     justify-content:flex-end;
     text-transform: capitalize;
 
-    color: #020733;
-    margin-bottom:15px;
+    color: #212121;
+    margin-bottom:10px;
 
 
 
@@ -111,7 +111,7 @@ export const User = styled.div`
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
 
     display: flex;
@@ -224,7 +224,7 @@ export const TituloServico = styled.div`
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 39px;
     /* or 146% */
 
@@ -258,7 +258,7 @@ export const DescricaoServico = styled.div`
     justify-content:center;
     margin:auto;
 
-    color: #000000;
+    color: #36373A;
 
     @media (max-width: 600px){
 

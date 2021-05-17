@@ -44,6 +44,7 @@ export const ContatoSocial = styled.div`
 
   width: 28px;
   height: 27px;
+  color: #1BBDC8;
  }
 
   &:hover,

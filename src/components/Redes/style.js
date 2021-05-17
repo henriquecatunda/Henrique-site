@@ -70,13 +70,13 @@ export const Titulo = styled.div`
     font-family: 'Righteous', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 35px;
     display: flex;
     align-items: center;
     text-transform: uppercase;
 
-    color: #020733;
+    color: #212121;
     margin-bottom: 25px;
     margin-top: 120px;
 

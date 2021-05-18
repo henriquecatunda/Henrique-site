@@ -36,9 +36,9 @@ function InfoUser(){
                     <Titulo>
                        knowledge and experience
                     </Titulo>
-                    <div className="forTEXT">
+                    <User>
                     I am currently learning Front-end development and UI-UX design, such as HTML (Semantics and Accessibility), CSS, JavaScript (ES6 / 7), ReactJs, Responsive Design.
-                    </div>
+                    </User>
 
             </Formacao>
 

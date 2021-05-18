@@ -103,7 +103,7 @@ export const TituloServico = styled.div`
     align-items: center;
     justify-content:center;
 
-    color: #36373A;
+    color: #1BBDC8;
     margin-bottom: 10px;
 
     @media (max-width: 600px){
@@ -143,7 +143,7 @@ export const DescricaoAno = styled.footer`
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  margin: 5px 0 10px;
+  margin: 5px 0 20px;
 
   display: flex;
   align-items: center;

@@ -7,13 +7,12 @@ export const Container = styled.div`
  margin:auto;
 
  h3{
-     margin-bottom:30px;
-     font-family: 'Roboto', sans-serif;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 23.0582px;
-     line-height: 27px;
-     color: #212121;
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #212121;
+    margin-bottom: 20px;
 
  }
 
@@ -85,8 +84,8 @@ color: #FFFFFF;
 export const Linha = styled.div`
 
 width: 25px;
-height:2px;
-background-color: var(--black);
+height:1px;
+background-color: #FF3737;
 margin: auto;
 margin-top: 5px;
 

@@ -41,7 +41,7 @@ export const Avatar = styled.div`
     justify-content:left;
 
     >img {
-       width: 245px;
+       width: 235px;
        
        
        margin-left:18px;
@@ -82,8 +82,8 @@ export const Titulo = styled.div`
     font-family: 'Righteous', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 27.5px;
-    line-height: 35px;
+    font-size: 22px;
+    line-height: 30px;
     display: flex;
     align-items: center;
     
@@ -94,11 +94,11 @@ export const Titulo = styled.div`
 export const User = styled.div`
 
     
-   font-family: 'Roboto', sans-serif;
+font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 27px;
     display: flex;
     align-items: center;
 

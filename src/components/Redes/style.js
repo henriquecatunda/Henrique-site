@@ -110,14 +110,14 @@ export const User = styled.div`
 `;
 
 export const ButtonPortfolio = styled.button`
-  color: #020733;
-  border: 2.3px solid #020733;
+  color:  #1BBDC8;;
+  border: 2.3px solid #1BBDC8;;
   background-color: #FAFAFA;
   box-sizing: border-box;
   cursor: pointer;
   padding: 8.8px 43px;
   font-style: normal;
-  font-size: 14px;
+  font-size: 15px;
   outline: none;
   border-radius: 25px;
   text-decoration: none;

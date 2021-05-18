@@ -95,15 +95,15 @@ export const TituloServico = styled.div`
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 17px;
     /* or 146% */
 
     display: flex;
     align-items: center;
     justify-content:center;
 
-    color: #36373A;
-    margin-bottom: 10px;
+    color: #1BBDC8;
+    margin-bottom: 15px;
 
     @media (max-width: 600px){
 
